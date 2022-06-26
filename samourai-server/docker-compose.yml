@@ -78,8 +78,8 @@ services:
       EXPLORER_INSTALL: "off"
 
       # INDEXER
-      INDEXER_IP: $APP_ELECTRS_NODE_IP
-      INDEXER_RPC_PORT: $APP_ELECTRS_NODE_PORT
+      INDEXER_IP: $APP_FULCRUM_NODE_IP
+      INDEXER_RPC_PORT: $APP_FULCRUM_NODE_PORT
       INDEXER_PROTOCOL: tcp
       INDEXER_BATCH_SUPPORT: inactive # 'active' for ElectrumX, 'inactive' otherwise
     depends_on:

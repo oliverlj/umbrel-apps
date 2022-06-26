@@ -20,7 +20,7 @@ services:
       BTCEXP_BITCOIND_PASS: $APP_BITCOIN_RPC_PASS
       # Electrum
       BTCEXP_ADDRESS_API: electrumx
-      BTCEXP_ELECTRUMX_SERVERS: "tcp://$APP_ELECTRS_NODE_IP:$APP_ELECTRS_NODE_PORT"
+      BTCEXP_ELECTRUMX_SERVERS: "tcp://$APP_FULCRUM_NODE_IP:$APP_FULCRUM_NODE_PORT"
       # Log level
       DEBUG: "btcexp:*,electrumClient"
       # Performance

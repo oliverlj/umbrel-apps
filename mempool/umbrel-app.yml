@@ -37,7 +37,7 @@ developer: Mempool Space K.K.
 website: https://mempool.space/about
 dependencies:
   - bitcoin
-  - electrs
+  - fulcrum
 repo: https://github.com/mempool/mempool
 support: https://mempool.support
 port: 3006

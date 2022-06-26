@@ -2,7 +2,7 @@ manifestVersion: 1
 id: btc-rpc-explorer
 category: Explorers
 name: BTC RPC Explorer
-version: "3.3.0"
+version: "3.3.0-0"
 tagline: Simple, database-free blockchain explorer
 description: >-
   BTC RPC Explorer is a full-featured, self-hosted explorer for the
@@ -19,7 +19,7 @@ developer: Dan Janosik
 website: https://explorer.btc21.org
 dependencies:
   - bitcoin
-  - electrs
+  - fulcrum
 repo: https://github.com/janoside/btc-rpc-explorer
 support: https://github.com/janoside/btc-rpc-explorer/discussions
 port: 3002
